@@ -56,6 +56,7 @@ DIM=1
 last_mouse=""
 idle_start=0
 SERV_PATH="$SERVICE_PATH/$SERVICE_NAME"
+SCRIPT_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # -------------------------
 # Helper function to check if service is installed
