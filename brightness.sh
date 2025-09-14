@@ -15,7 +15,7 @@ SERVICE_PATH="/etc/systemd/system" # NO TRAILING SLASHES!
 
 # Path to brightness control
 BRIGHTNESS_PATH="/sys/class/backlight/10-0045/brightness"
-DESKTOP_USER="natroutter"
+DESKTOP_USER="pi"
 
 # Brightness levels
 FULL_BRIGHTNESS=150
@@ -23,12 +23,6 @@ DIM_BRIGHTNESS=0
 
 # Time to wait before dimming (in seconds)
 INACTIVITY_TIME=3
-
-# Store last mouse position
-last_mouse=""
-
-# Timestamp when mouse became idle
-idle_start=0
 
 # Print debug messages
 DEBUG=0
@@ -38,9 +32,29 @@ DEBUG=0
 # PROGRAM STARTS HERE DO NOT EDIT!                                                   #
 #                                                                                    #
 ######################################################################################
-
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
 #Variables
 DIM=1
+last_mouse=""
+idle_start=0
 SERV_PATH="$SERVICE_PATH/$SERVICE_NAME"
 
 # -------------------------
